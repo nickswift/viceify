@@ -1,0 +1,19 @@
+{
+  "name": "viceify",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Turn any article into a VICE article!",
+  "permissions": [
+    "contextMenus",
+    "activeTab", 
+    "tabs",
+    "http://*/", 
+    "https://*/"
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": false
+  }
+}
